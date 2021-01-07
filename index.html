@@ -32,7 +32,19 @@
     <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
-    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Kubernetes Desired State  (k8sds)</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+            <div class="navbar-nav ml-auto">
+                <a href="https://github.com/k8sdesiredstate/k8sds-api/wiki" class="nav-item nav-link">Get the code 
+                  <img src="GitHub-Mark-Light-32px.png" height="32" alt="GitHub">
+                </a>
+            </div>
+        </div>
+      </nav>
+    </header>
 <main role="main">
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -43,32 +55,35 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img src="wave_background.jpg" alt="">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1>Example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <h1>Easily Manage Kubernetes Deployments</h1>
+            <p>Kubernetes Desired State (aka k8sds) is a simple, opinionated, strict declarative solution for keeping your Kubernetes edge fleet deployments properly configured and up to date.</p>
+            <p>&nbsp;</p><p>&nbsp;</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
+        <img src="wave_background.jpg" alt="">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <h1>Utilize Your Existing Development Pipeline</h1>
+            <p>K8sds is designed to seamlessly enable production at scale using existing continuous integration and continuous delivery (CI/CD) pipelines.</p>
+            <p>&nbsp;</p><p>&nbsp;</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
+        <img src="wave_background.jpg" alt="">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
         <div class="container">
           <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <h1>A Truly Declarative GitOps Solution</h1>
+            <p>Kubernetes cluster’s single source-of-truth for configuration is GitHub, ensuring a cluster’s configuration is under strict revision control, while allowing for easy update and rollback.</p>
+            <p>&nbsp;</p><p>&nbsp;</p>
           </div>
         </div>
       </div>
@@ -93,22 +108,22 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img src="k8s_logo.png" class="rounded-circle" width="140" height="140" alt="">
+        <h2>Strictly Declarative</h2>
+        <p>While Kubernetes is designed to be declarative, stacking desired states on top of desired states eventually leads to configuration drift the same way it does in imperatively configured systems. K8sds implements a strict declarative configuration which does not drift over time.</p>
+        <p><a class="btn btn-secondary" href="https://github.com/k8sdesiredstate/k8sds-api/wiki" role="button">Learn more &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img src="k8s_logo.png" class="rounded-circle" width="140" height="140" alt="">
+        <h2>DevOps Friendly</h2>
+        <p>Kubernetes’ resource manifests, which provide a cluster’s desired state, are obtained straight from a Git repository (known as GitOps), enabling the desired state to be under strict revision control, while also allowing for easy update and rollback capability.</p>
+        <p><a class="btn btn-secondary" href="https://github.com/k8sdesiredstate/k8sds-api/wiki" role="button">Learn more &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img src="k8s_logo.png" class="rounded-circle" width="140" height="140" alt="">
+        <h2>Designed for the Edge</h2>
+        <p>IoT presents a challenge very different from enterprises. Large IoT organizations, such as retailers, may have an edge cluster per store, across 5000+ stores, and spans the entire globe. K8sds takes a simple approach to ensure your global IoT deployments are always up to date.</p>
+        <p><a class="btn btn-secondary" href="https://github.com/k8sdesiredstate/k8sds-api/wiki" role="button">Learn more &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -119,11 +134,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Managing your desired state</h2>
+        <p class="lead">Like the thermostat in your house, you set the temperature, or desired state, and the system takes over to continuously ensure that the actual state matches the desired state. However, if you have 300 thermostats, it gets confusing which temperature was requested for each thermostat. K8sds maps exactly 1 directory, which is under revision control, to your desired state documents (Kubernetes resource manifests). This allows you to always know exactly what your desired state is.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="featurette-image img-fluid mx-auto" src="thermostat.png" height="500px" width="500px" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -131,11 +146,11 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Leverage existing CI/CD pipelines</h2>
+        <p class="lead">DevOps is becoming central to the digital transformation strategy for many organizations, providing a robust and transparent pipeline for product development. Integrating DevOps with Kubernetes deployments provides organizations with mature and efficient tools and processes for deploying critical business applications. By tightly integrating with Git as the source-of-truth for desired state, K8sds makes it trivial to add the “deployment” stage to your existing Git-based development pipeline.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="featurette-image img-fluid mx-auto" src="gitops.png" height="500px" width="500px" alt="Generic placeholder image">
       </div>
     </div>
 
@@ -143,11 +158,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">K8sds was made for the IoT challenge</h2>
+        <p class="lead">IoT deployments are typically remote, may have thousands of locations, likely behind firewalls, may have intermittent network access, and the problems go. K8sds makes managing IoT deployments simple, by just monitoring the configured repository and deploying releases as soon as they are merged into the production branch. An authorized administrator could deploy an updated enterprise software stack, to thousands of nodes across the world, with a simple command, such as: <code>>$ git merge release1.5</code></p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="featurette-image img-fluid mx-auto" src="iot.png" height="500px" width="500px" alt="Generic placeholder image">
       </div>
     </div>
 
